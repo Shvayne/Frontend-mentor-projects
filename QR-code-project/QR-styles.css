@@ -1,0 +1,44 @@
+body{ background-color: hsl(212, 45%, 89%);
+font-family: Sans-serif, Arial, Helvetica;
+}
+
+section{
+width: 95%;
+height: 70%;
+margin: 25px auto;
+background-color: white;
+border-radius: 20px;
+padding-right: 8px;
+}
+
+.image{
+width: 93%;
+margin: 15px;
+border-radius: 10px;
+margin-right: 25px;
+}
+
+h1{
+text-align: center;
+font-weight: 800;
+font-size: 23px;
+padding: 0 25px;
+margin-top: 0;
+}
+
+p{
+color: grey;
+text-align: center;
+padding: 0 45px
+font-size: 5px;
+font-weight: 500;
+padding-bottom: 25px;
+}
+.attribution { 
+font-size: 11px; 
+text-align: center; 
+}
+
+.attribution a { 
+color: hsl(228, 45%, 44%); 
+}
