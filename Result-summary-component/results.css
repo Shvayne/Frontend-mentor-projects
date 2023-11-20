@@ -1,4 +1,8 @@
-@media (max-width: 375px) {};
+@media (max-width: 375px) {
+ .container{
+  flex-direction: row;
+ }
+};
 body{
 font-family: 'Hanken Grotesk', sans-serif;
 margin: 50px 15px;
