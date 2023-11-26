@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 100px auto;
+  width: 800px;
+  height: 450px;
+}
+h1{
+  font-family: 'Big Shoulders Display';
+  color: hsl(0, 0%, 95%);
+  margin-left: 20px;
+}
+
+p{
+  font-family: 'Lexend Deca';
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: 20px;
+}
+svg {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 30px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px;
+}
+
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  padding: 30px;
+}
+button{
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.one{
+  color: hsl(31, 77%, 52%);
+}
+
+.two{
+  color:  hsl(184, 100%, 22%);
+}
+
+.three{
+  color:  hsl(179, 100%, 13%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 375px)
+{
+  .container{
+    flex-direction: column;
+  }
+}
