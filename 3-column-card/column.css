@@ -55,14 +55,6 @@ button{
 .three{
   color:  hsl(179, 100%, 13%);
 }
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 @media (max-width: 375px)
 {
   body{
@@ -76,11 +68,4 @@ button{
     width: calc(100% - 20px);
     margin: 0 auto;
   }
-   .attribution {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-   }
 }
