@@ -65,8 +65,15 @@ button{
 }
 @media (max-width: 375px)
 {
+  body{
+    margin: 10px;
+  }
   .container{
     flex-direction: column;
-    width: 80%;
+    width: 90%;
+  }
+  .sedan, .suv, .luxury{
+    width: calc(100% - 20px);
+    margin: 0 auto;
   }
 }
