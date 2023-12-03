@@ -23,6 +23,7 @@ main{
 .center{
   /*padding: 0 300px;*/
   font-size: 12px;
+  background-color: blue;
   font-weight: 400;
 }
 
