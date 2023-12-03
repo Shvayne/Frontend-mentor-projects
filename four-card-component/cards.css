@@ -21,7 +21,7 @@ main{
 }
 
 .center{
-  padding: 0 300px;
+  /*padding: 0 300px;*/
   font-size: 12px;
   font-weight: 400;
 }
@@ -120,5 +120,5 @@ img{
     display: flex;
     flex-direction: column;
   }
-  .center{ margin: 0 15px;}
+ /*.center{ margin: 0 15px;}*/
   }
