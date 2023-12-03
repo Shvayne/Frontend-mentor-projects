@@ -120,3 +120,5 @@ img{
     display: flex;
     flex-direction: column;
   }
+  .center{ margin: 0 15px;}
+  }
