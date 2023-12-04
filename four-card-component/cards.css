@@ -108,6 +108,9 @@ img{
     position: relative;
     min-height: 100vh;
   }*/
+  .header{
+    margin: 0 auto;
+  }
   .main-article{
     width: 80%;
     margin: 0 auto;
@@ -125,5 +128,5 @@ img{
   }
   
   .center, .light, .dark{
-    margin: 3px 18px;
+    margin: 3px 5px;
   }
