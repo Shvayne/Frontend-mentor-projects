@@ -96,6 +96,7 @@ img{
 .attribution{ 
   font-size: 11px; 
   text-align: center; 
+  margin: 5px auto;
 }
 
 .attribution a{ 
