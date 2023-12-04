@@ -31,7 +31,6 @@ main{
   display: flex;
   flex-direction: row;
   width: 78%;
-  height: 500px;
   margin:60px auto;
 }
 .middle{
