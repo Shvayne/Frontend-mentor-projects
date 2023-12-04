@@ -104,10 +104,14 @@ img{
   background-color: violet;
 }
 @media(max-width:375px){
-  /*body{
-    position: relative;
-    min-height: 100vh;
-  }*/
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
   .header{
     margin: 0 auto;
   }
