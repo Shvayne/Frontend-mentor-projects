@@ -6,8 +6,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   height: 50%;
-  width: 100%;
-  margin: 0 1.5rem;
+  width: 94%;
+  margin: 0 auto;
 }
 
 .bottom-half{
@@ -15,8 +15,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   height: 50%;
-  width: 100%;
-  margin: 0 1.5rem;
+  width: 94%;
+  margin: 0 auto;
 }
 
 
@@ -39,8 +39,8 @@ h1{
 }
 
 .comments p{
-  margin-top: .5rem;
-  margin-left: 0;
+  margin-top: .5rem auto;
+  
 }
 .ratings-1, .ratings-2, .ratings-3{
   background-color: hsl(300, 24%, 96%);
@@ -83,4 +83,45 @@ h1{
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media (min-width: 768px){
 
+.top-half{
+display: flex;
+flex-direction: row;
+}
+
+.top-content, .ratings {
+width: 40%;
+}
+
+.ratings{
+display: flex;
+flex-direction: column;
+}
+
+.ratings-2{
+margin-left: 1.2rem;
+margin-top: 0.7rem;
+}
+
+.ratings-3{
+margin-left: 2.4rem
+margin-top: 0.7rem;
+}
+
+.bottom-half{
+display: flex;
+flex-direction: row;
+}
+
+.comments-2{
+margin-top: .6rem;
+margin-left: 1rem;
+}
+
+.comments-3{
+margin-top: 1.2rem;
+margin-left: 1rem;
+}
+
+}
