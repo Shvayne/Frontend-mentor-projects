@@ -19,7 +19,6 @@ body{
   margin: 0 auto;
 }
 
-
 h1{
   font-size: 2.1rem;
   text-align: center;
@@ -39,14 +38,13 @@ h1{
 }
 
 .comments p{
-  margin-top: .5rem auto;
-  
+  margin: .5rem auto;
 }
 .ratings-1, .ratings-2, .ratings-3{
   background-color: hsl(300, 24%, 96%);
   color: hsl(300, 43%, 22%);
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   border-radius: .3rem;
 }
 
@@ -79,49 +77,87 @@ h1{
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 @media (min-width: 768px){
-
-.top-half{
-display: flex;
-flex-direction: row;
-}
-
-.top-content, .ratings {
-width: 40%;
-}
-
-.ratings{
-display: flex;
-flex-direction: column;
-}
-
-.ratings-2{
-margin-left: 1.2rem;
-margin-top: 0.7rem;
-}
-
-.ratings-3{
-margin-left: 2.4rem
-margin-top: 0.7rem;
-}
-
-.bottom-half{
-display: flex;
-flex-direction: row;
-}
-
-.comments-2{
-margin-top: .6rem;
-margin-left: 1rem;
-}
-
-.comments-3{
-margin-top: 1.2rem;
-margin-left: 1rem;
-}
-
+  .top-half{
+    display: flex;
+    flex-direction: row;
+    width: 94%;
+  }
+  .bottom-half{
+    /* display: flex; */
+    position: relative;
+    width: 96%;
+  }
+  .top-content h1, .top-content p{
+    text-align: left;
+  }
+  .top-content h1{
+    width: 60%;
+  }
+  .top-content p{
+    width: 90%;
+  }
+  .ratings{
+    margin-left: 3rem;
+    padding: 2rem 1.5rem;
+  }
+  .ratings-1, .ratings-2, .ratings-3{
+    padding: .8rem 1.5rem;
+  }
+  .top-content, .ratings{
+    width: 40%;
+  }
+  .ratings{
+    display: flex;
+    flex-direction: column;
+  }
+  .ratings-1{
+    margin-right: 5rem;
+  }
+  .ratings-2{
+    margin-left: 1.5rem;
+    margin-top: 0.7rem;
+    margin-right: 2.5rem;
+  }
+  .ratings-3{
+    margin-left: 3rem;
+    margin-top: 0.7rem;
+  }
+  .comments-1, .comments-2, .comments-3{
+    width: 25%;
+    padding: .5rem;
+    margin: .5rem;
+  }
+  .comments-1{
+    
+    margin-left: 0;
+  }
+  .comments-1 p{
+    margin-left: 0;
+  }
+  .comments-2{
+    top: .7rem;
+    left: 20.6rem;
+    position: absolute;
+    transform: translateX(.7rem);
+    padding: 1rem;
+  }
+  br{display: none;}
+  .comments-3{
+    top: 2rem;
+    left: 42.2rem;
+    position: absolute;
+    transform: translateX(1.5rem);
+  }
+  .footer{
+    position: relative;
+  }
+  .attribution{
+    position: absolute;
+    top: 6rem;
+    left: 30rem;
+  }
 }
