@@ -1,8 +1,8 @@
-body{
-  font-family: 'League Spartan', sans-serif;
+body {
+  font-family: "League Spartan", sans-serif;
 }
-.top-half{
-  background-image: url('./images/bg-pattern-top-mobile.svg');
+.top-half {
+  background-image: url("./images/bg-pattern-top-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 50%;
@@ -10,8 +10,8 @@ body{
   margin: 0 auto;
 }
 
-.bottom-half{
-  background: url('./images/bg-pattern-bottom-mobile.svg');
+.bottom-half {
+  background: url("./images/bg-pattern-bottom-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 50%;
@@ -19,36 +19,40 @@ body{
   margin: 0 auto;
 }
 
-h1{
+h1 {
   font-size: 2.1rem;
   text-align: center;
   color: hsl(300, 43%, 22%);
   font-weight: 900;
 }
 
-.top-text{
+.top-text {
   color: hsl(303, 10%, 53%);
   text-align: center;
 }
-.comments-1, .comments-2, .comments-3{
+.comments-1,
+.comments-2,
+.comments-3 {
   background-color: hsl(300, 43%, 22%);
   color: white;
   font-weight: 400;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
-.comments p{
-  margin: .5rem auto;
+.comments p {
+  margin: 0.5rem auto;
 }
-.ratings-1, .ratings-2, .ratings-3{
+.ratings-1,
+.ratings-2,
+.ratings-3 {
   background-color: hsl(300, 24%, 96%);
   color: hsl(300, 43%, 22%);
   text-align: center;
   font-weight: 700;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
-.bottom-half img{
+.bottom-half img {
   border-radius: 50%;
   float: left;
   margin: 1.7rem 1.2rem;
@@ -56,22 +60,22 @@ h1{
   height: 2.5rem;
 }
 
-.intro{
+.intro {
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
 }
-.intro h2{
+.intro h2 {
   margin-top: 1.5rem;
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
   font-size: 1.2rem;
   color: white;
 }
 
-.intro h3{
+.intro h3 {
   margin-top: 0;
   font-size: 1rem;
-  color:  hsl(333, 80%, 67%);
+  color: hsl(333, 80%, 67%);
 }
 .attribution {
   font-size: 11px;
@@ -80,84 +84,130 @@ h1{
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media (min-width: 768px){
-  .top-half{
+
+@media (min-width: 1024px) {
+  body {
     display: flex;
-    flex-direction: row;
-    width: 94%;
+    flex-direction: column;
+    gap: 3rem;
   }
-  .bottom-half{
-    /* display: flex; */
-    position: relative;
-    width: 96%;
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
   }
-  .top-content h1, .top-content p{
+
+  .top-half {
+    display: flex;
+    justify-content: space-between;
+
+    /* flex-direction: row; */
+    /* width: 94%; */
+  }
+
+  .top-content h1,
+  .top-content p {
     text-align: left;
   }
-  .top-content h1{
+
+  .top-content h1 {
     width: 60%;
   }
-  .top-content p{
+
+  .top-content p {
     width: 90%;
   }
-  .ratings{
+
+  .ratings {
     margin-left: 3rem;
-    padding: 2rem 1.5rem;
+    padding: 2rem 0;
   }
-  .ratings-1, .ratings-2, .ratings-3{
-    padding: .8rem 1.5rem;
+
+  br {
+    display: none;
   }
-  .top-content, .ratings{
+
+  .ratings-1,
+  .ratings-2,
+  .ratings-3 {
+    padding: 0.8rem 1.5rem;
+  }
+
+  .top-content,
+  .ratings {
     width: 40%;
   }
-  .ratings{
+
+  .ratings {
     display: flex;
     flex-direction: column;
   }
-  .ratings-1{
+
+  .ratings-1 {
     margin-right: 5rem;
   }
-  .ratings-2{
+
+  .ratings-2 {
     margin-left: 1.5rem;
     margin-top: 0.7rem;
     margin-right: 2.5rem;
   }
-  .ratings-3{
+
+  .ratings-3 {
     margin-left: 3rem;
     margin-top: 0.7rem;
   }
-  .comments-1, .comments-2, .comments-3{
+
+  .bottom-half {
+    display: flex;
+    justify-content: space-between;
+
+    /* display: flex; */
+    /* position: relative; */
+    /* width: 94%; */
+  }
+
+  .comments-1,
+  .comments-2,
+  .comments-3 {
     width: 25%;
-    padding: .5rem;
-    margin: .5rem;
+    padding: 1.5rem;
+
+    /* margin: 0.5rem; */
   }
-  .comments-1{
-    
-    margin-left: 0;
-  }
-  .comments-1 p{
-    margin-left: 0;
-  }
-  .comments-2{
-    top: .7rem;
+
+  .comments-2 {
+    transform: translateY(0.8rem);
+
+    /* top: 0.7rem;
     left: 20.6rem;
-    position: absolute;
-    transform: translateX(.7rem);
-    padding: 1rem;
+    position: absolute; */
+    /* padding: 1rem; */
   }
-  br{display: none;}
-  .comments-3{
-    top: 2rem;
+
+  .comments-3 {
+    transform: translateY(1.6rem);
+
+    /* top: 2rem;
     left: 42.2rem;
+    position: absolute; */
+  }
+
+  /* .comments-1 {
+    margin-left: 0;
+  }
+  .comments-1 p {
+    margin-left: 0;
+  } */
+
+  /*  .footer {
     position: absolute;
-    transform: translateX(1.5rem);
+    bottom: 0;
+    left: 30rem;
   }
-  .footer{
-    position: relative;
-  }
-  .attribution{
+  .attribution {
     position: absolute;
     top: 6rem;
     left: 30rem;
-  }
+  } */
 }
