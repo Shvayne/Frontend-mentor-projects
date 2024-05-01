@@ -336,8 +336,8 @@ table{
     flex-direction: column;
   }
   .welcome-img{
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
     margin-top: 5rem;
   }
   .header-intro p{
@@ -347,6 +347,7 @@ table{
   #navbar{
     position: fixed;
     top: 0;
+    width: 100%;
   }
   .yellow-btn{
     padding: 10px 20px;
@@ -396,7 +397,7 @@ table{
   flex-direction: column;
 }
 .my-service-column{
-  width: 50%;
+  width: 60%;
   margin: 5px auto;
   border: none;
 }
@@ -405,15 +406,15 @@ table{
 }
 .project-tile{
   flex-direction: column;
-  width: 70%;
+  width: 100%;
   margin: 15px 6rem 15px 7rem;
 }
 .project-tile img{
-  width: 20rem;
+  width: 20%;
   margin-bottom: 10px;
 }
 .contact-column{
-  margin-left: 6rem;
+  margin-left: 0;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
