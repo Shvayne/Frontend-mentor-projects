@@ -447,7 +447,7 @@ about-me-right p{
   }
 
 .project-tile img{
-  width: 65%;
+  width: 85%;
   margin-bottom: 10px;
 }
 .contact-column {
@@ -589,7 +589,7 @@ about-me-right p{
   margin: 10px 10px;
 }
 .project-tile img{
-  width: 65%;
+  width: 85%;
   margin-bottom: 10px;
 }
 .contact-column {
@@ -697,7 +697,7 @@ margin-bottom: 2rem;
   margin: 10px 10px;
 }
 .project-tile img{
-  width: 65%;
+  width: 85%;
   margin-bottom: 10px;
 }
 .contact-column {
@@ -782,11 +782,6 @@ margin-bottom: 2rem;
 .my-service-column h3{
   font-size: 15px;
 }
-.project-tile{
-  flex-direction: column;
-  width: 70%;
-  margin: 15px 6rem 15px 7rem;
-}
 .project-tile a {
   display: block; 
     margin-bottom: 20px;
@@ -799,7 +794,7 @@ margin-bottom: 2rem;
   margin: 10px 10px;
 }
 .project-tile img{
-  width: 65%;
+  width: 85%;
   margin: 5px auto;
 }
 .contact-column{
