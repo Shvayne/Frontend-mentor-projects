@@ -189,6 +189,10 @@ table{
   font-size: 14px;
   padding: .4rem;
 }
+.no-underline{
+  text-decoration: none;
+  color: #fff;
+}
 #resume{
   border: none;
   margin-left: 0rem;
@@ -422,7 +426,7 @@ about-me-right p{
   font-size: 10px;
 }
 .my-service-column{
-  width: 60%;
+  width: 100%;
   margin: 5px auto;
   border: none;
 }
@@ -435,7 +439,7 @@ about-me-right p{
   margin: 10px 10px;
 }
 .project-tile img{
-  width: 5%;
+  width: 100%;
   margin-bottom: 10px;
 }
 .contact-column {
@@ -571,7 +575,7 @@ about-me-right p{
   margin: 10px 10px;
 }
 .project-tile img{
-  width: 5%;
+  width: 100%;
   margin-bottom: 10px;
 }
 .contact-column {
@@ -672,7 +676,7 @@ margin-bottom: 2rem;
   margin: 10px 10px;
 }
 .project-tile img{
-  width: 20rem;
+  width: 100%;
   margin-bottom: 10px;
 }
 .contact-column {
