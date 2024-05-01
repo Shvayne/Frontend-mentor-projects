@@ -108,15 +108,12 @@ li a:hover{
   width: 42%;
   margin-left: 4rem;
   margin-top: 1rem;
+  color:#F6C268;
 }
 .change-theme-btn:hover{
   background-color: #44285B;
   color: #F6C268;
   border: none;
-}
-.new_theme{
-  background-color: #F6C268;
-  color:#2B0945;
 }
 .yellow-btn{
   background-color: #F6C268;
@@ -318,7 +315,8 @@ table{
     overflow-x: hidden;
   }
   ul{
-    margin: 5px;
+    margin-left: 0;
+    margin-top: 5px;
     flex-direction: row;
     display: flex;
   }
@@ -408,6 +406,7 @@ table{
 about-me-right p{
   width: 100%;
   margin-top: 3rem;
+  font-size: 15px;
 }
 #resume{
   margin-left: 0;
@@ -418,6 +417,9 @@ about-me-right p{
 }
 .my-services{
   flex-direction: column;
+}
+#services p{
+  font-size: 10px;
 }
 .my-service-column{
   width: 60%;
@@ -430,7 +432,7 @@ about-me-right p{
 .project-tile{
   flex-direction: row;
   width: 100%;
-  margin: 5px 0;
+  margin: 10px 10px;
 }
 .project-tile img{
   width: 5%;
@@ -450,7 +452,8 @@ margin-bottom: 2rem;
     overflow-x: hidden;
   }
   ul{
-    margin: 5px;
+    margin-left: 0;
+    margin-top: 5px;
     flex-direction: row;
     display: flex;
   }
@@ -514,6 +517,9 @@ margin-bottom: 2rem;
     display: block;
 
   }
+  #services p{
+  font-size: 10px;
+}
   #About-me{
     width: 100%;
     display: flex;
@@ -562,7 +568,7 @@ about-me-right p{
 .project-tile{
   flex-direction: row;
   width: 100%;
-  margin: 5px 0;
+  margin: 10px 10px;
 }
 .project-tile img{
   width: 5%;
@@ -582,7 +588,10 @@ margin-bottom: 2rem;
     overflow-x: hidden;
   }
   ul{
-    margin-left: 5px;
+    margin-left: 0;
+    margin-top: 5px;
+    flex-direction: row;
+    display: flex;
   }
   .container{
     max-width: 95%;
@@ -660,7 +669,7 @@ margin-bottom: 2rem;
 .project-tile{
   flex-direction: column;
   width: 100%;
-  margin: 10px 0;
+  margin: 10px 10px;
 }
 .project-tile img{
   width: 20rem;
