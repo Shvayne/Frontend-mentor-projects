@@ -1,0 +1,513 @@
+@supports (-moz-appearance:none) {
+  /* Firefox-specific CSS */
+  #welcome-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+
+  .welcome-section-nav img {
+    max-width: 3rem;
+    max-height: 3rem; /* Adjust width as needed */
+    margin-left: 4rem;
+  }
+  .welcome-img{
+    width: 20%;
+  }
+  .header-intro p{
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+section, body, html{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #2B0945;
+  max-width: 100%;
+}
+h1, h2, h3, button{
+  font-family: "League Spartan", sans-serif;
+}
+.header-intro p{
+  font-family: "League Spartan", sans-serif;
+}
+.container{
+  max-width: 100%;
+  margin: 0 auto;
+}
+#welcome-section{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.welcome-section-nav{
+  display: flex;
+  flex-direction: row;
+}
+.welcome-section-nav img{
+  width: 3rem;
+  margin-left: 4rem;
+}
+
+.welcome-img{
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40rem;
+  list-style-type: none;
+}
+li a{
+  text-decoration: none;
+  color: #fff;
+  margin: 0 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+li a:hover{
+  color: #F6C268;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+}
+.header-welcome{
+  display: flex;
+  flex-direction: row;
+}
+.small{
+  font-size: 2rem;
+  display: block;
+}
+.yellow{
+  color:#F6C268;
+}
+.block{
+  display: block;
+}
+.header-welcome p{
+  width: 60%;
+  font-size: 4rem;
+  margin-left: 4rem;
+  margin-bottom: 0;
+}
+.header-intro{
+  display: flex;
+  flex-direction: column;
+}
+
+.yellow-btn, .purple-btn, .change-theme-btn{
+  margin-top: 0;
+  border-radius: 20px;
+  padding: .7rem 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.change-theme-btn{
+  width: 42%;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.change-theme-btn:hover{
+  background-color: #44285B;
+  color: #F6C268;
+  border: none;
+}
+.new_theme{
+  background-color: #F6C268;
+  color:#2B0945;
+}
+.yellow-btn{
+  background-color: #F6C268;
+  color: #2B0945;
+  border: none;
+  margin-left: 4rem;
+}
+.yellow-btn:hover{
+  background-color: #44285B;
+  color: #F6C268;
+}
+.purple-btn:hover{
+  background-color:#44285B;
+}
+#resume:hover{
+  background-color: #2B0945;
+  color: #F6C268;
+}
+.purple-btn{
+  color:#F6C268;
+  background-color: #2B0945;
+  border:1px solid #F6C268;
+  border-radius: 20px;
+  padding: .6rem 2rem;
+  margin-left: 20px;
+}
+
+.btn-row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+#About-me{
+  background-color:  #44285B;
+  display: flex;
+  flex-direction: row;
+}
+#About-me img{
+  width: 30%;
+  margin-top: 3.5rem;
+  margin-left: 3.2rem;
+  margin-bottom: 3.5rem;
+  border-radius: 10px;
+}
+.about-me-right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-bottom: 3.5rem;
+  width: 40%;
+  margin-top: 2rem;
+}
+.about-me-right p{
+  font-family: "Montserrat", sans-serif;
+}
+.about-me-right h2{
+  margin-bottom: 7px;
+  color: #F6C268;
+}
+.about-me-right h3{
+  margin-top: 0;
+}
+.underline{
+  background-color:#F6C268;
+  width: 4rem;
+  height: .1rem;
+}
+table{
+  border: 1px solid #F6C268;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding: .4rem;
+}
+#resume{
+  border: none;
+  margin-left: 0rem;
+  margin-top: 2rem;
+}
+#services h2{
+  margin-left: 3.2rem
+}
+.h3{
+  margin-left: 3.2rem;
+  margin-bottom: 1rem;
+  margin-top: .3rem;
+}
+#services h2{
+  color:#F6C268;
+}
+#services p{
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+  margin-left: .4rem;
+  margin-top: 0;
+}
+
+.my-services{
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.underline-services{
+  background-color:#F6C268;
+  width: 4rem;
+  height: .1rem;
+  margin-left: 3.23em;
+  margin-top: 0;
+}
+.my-service-column{
+  width: 15%;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: #44285B;
+}
+.my-service-column img{
+  width: 3rem;
+  margin: 4px auto 0 auto;
+}
+.smaller{
+  font-size: 11px;
+  margin-left: 0.4rem;
+}
+.my-service-column p{
+  font-size: 13px;
+  margin-top: 0;
+}
+#projects{
+  background-color: #44285B;
+}
+#projects h2, #projects h3{
+  margin-left: 3rem;
+}
+#projects h2{
+  color:#F6C268;
+  margin-bottom: 10px;
+}
+#projects h3{
+  margin-top: 5px
+}
+.project-tile img{
+  width: 15rem;
+  margin-left: 2rem;
+}
+.project-tile{
+  display: flex;
+  flex-direction: row;
+  max-width: 90%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+#contact{
+  background-color: #2B0945;
+}
+#contact a{
+  text-decoration: none;
+  color: white;
+}
+#contact h2, #contact h3{
+  margin-left: 3.2rem;
+}
+#contact h2{
+  margin-bottom: 10px;
+  color: #F6C268;
+}
+#contact h3{
+  margin-top: 0;
+}
+.contact-me{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.contact-me p{
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+.contact-column{
+  display: flex;
+  flex-direction: column;
+  margin-left: 13rem;
+  margin-top: 3rem;
+}
+.contact-column img{
+  width: 3rem;
+}
+/*add change theme functionality*/
+@media screen and (max-width: 767px){
+  body, html {
+    max-width: 100%;
+    background-color: #F6C268;
+    overflow-x: hidden;
+  }
+  ul{
+    margin-left: 5rem;
+  }
+  .container{
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  #welcome-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome-img{
+    width: 40%;
+    height: 40%;
+    margin-top: 5rem;
+  }
+  .header-intro p{
+    font-size: 3rem;
+    margin-top: 30px;
+  }
+  #navbar{
+    position: fixed;
+    top: 0;
+  }
+  .yellow-btn{
+    padding: 10px 20px;
+  }
+  .purple-btn{
+    padding: 8px 20px;
+  }
+  .change-theme-btn{
+    padding: 10px 20px;
+    width: 76.5%;
+  }
+  #About-me{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #About-me img{
+    width: 70%;
+    height: 60%;
+    margin: 20px auto 0 auto;
+  }
+  .about-me-right{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+.about-me-right h3, h2{
+  text-align: center;
+}
+.h3{
+  text-align: left;
+}
+.about-me-right p{
+  width: 100%;
+  margin-top: 3rem;
+}
+#resume{
+  margin-bottom: 10px;
+  margin-left: 9rem;
+}
+#services h2, h3{
+  margin-top: 15px;
+}
+.my-services{
+  flex-direction: column;
+}
+.my-service-column{
+  width: 50%;
+  margin: 5px auto;
+  border: none;
+}
+.my-service-column h3{
+  font-size: 15px;
+}
+.project-tile{
+  flex-direction: column;
+  width: 70%;
+  margin: 15px 6rem 15px 7rem;
+}
+.project-tile img{
+  width: 20rem;
+  margin-bottom: 10px;
+}
+.contact-column{
+  margin-left: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 900px){
+  body, html {
+    max-width: 100%;
+    background-color: #F6C268;
+    overflow-x: hidden;
+  }
+  .container{
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  .welcome-img{
+    width: 40%;
+    height: 40%;
+    margin-top: 5rem;
+  }
+  .header-intro p{
+    font-size: 3rem;
+    margin-top: 30px;
+  }
+  #navbar{
+    position: fixed;
+    top:0;
+  }
+  ul{
+    margin-right: 5rem;
+  }
+  .yellow-btn{
+    padding: 10px 20px;
+  }
+  .purple-btn{
+    padding: 8px 20px;
+  }
+  .change-theme-btn{
+    padding: 10px 20px;
+    width: 76.5%;
+  }
+  #About-me{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #About-me img{
+    width: 70%;
+    height: 60%;
+    margin: 20px auto 0 auto;
+  }
+  .about-me-right{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+.about-me-right h3, h2{
+  text-align: center;
+}
+.h3{
+  text-align: left;
+}
+.about-me-right p{
+  width: 100%;
+}
+#resume{
+  margin-bottom: 10px;
+  margin-left: 9rem;
+}
+#services h2, h3{
+  margin-top: 15px;
+}
+.my-services{
+  flex-direction: column;
+}
+.my-service-column{
+  width: 50%;
+  margin: 5px auto;
+  border: none;
+}
+.my-service-column h3{
+  font-size: 15px;
+}
+.project-tile{
+  flex-direction: column;
+  width: 70%;
+  margin: 15px 6rem 15px 7rem;
+}
+.project-tile img{
+  width: 20rem;
+  margin-bottom: 10px;
+}
+.contact-column{
+  margin-left: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+}
