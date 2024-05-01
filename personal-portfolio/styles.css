@@ -189,10 +189,11 @@ table{
   font-size: 14px;
   padding: .4rem;
 }
-.no-underline{
-  text-decoration: none;
+table td {
   color: #fff;
+  text-decoration: none;
 }
+
 #resume{
   border: none;
   margin-left: 0rem;
@@ -438,6 +439,13 @@ about-me-right p{
   width: 100%;
   margin: 10px 10px;
 }
+.project-tile a {
+  display: block; 
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 .project-tile img{
   width: 100%;
   margin-bottom: 10px;
@@ -569,8 +577,14 @@ about-me-right p{
 .my-service-column h3{
   font-size: 15px;
 }
+.project-tile a {
+  display: block; 
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 .project-tile{
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   margin: 10px 10px;
 }
@@ -670,6 +684,13 @@ margin-bottom: 2rem;
 .my-service-column h3{
   font-size: 15px;
 }
+
+.project-tile a {
+  display: block; 
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 .project-tile{
   flex-direction: column;
   width: 100%;
@@ -766,8 +787,19 @@ margin-bottom: 2rem;
   width: 70%;
   margin: 15px 6rem 15px 7rem;
 }
+.project-tile a {
+  display: block; 
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+.project-tile{
+  flex-direction: column;
+  width: 100%;
+  margin: 10px 10px;
+}
 .project-tile img{
-  width: 20rem;
+  width: 100%;
   margin-bottom: 10px;
 }
 .contact-column{
