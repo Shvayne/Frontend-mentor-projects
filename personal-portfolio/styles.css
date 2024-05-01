@@ -800,7 +800,7 @@ margin-bottom: 2rem;
 }
 .project-tile img{
   width: 65%;
-  margin-bottom: 10px;
+  margin: 5px auto;
 }
 .contact-column{
   margin-left: 6rem;
