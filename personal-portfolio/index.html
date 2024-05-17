@@ -168,6 +168,7 @@
     </div>
     <script>
       let themeChange = false;
+
       function changeTheme() {
         let body = document.querySelector("body");
         let yellowBtns = document.querySelectorAll(".yellow-btn");
@@ -273,7 +274,7 @@
           underline.style.backgroundColor = ""; // reset to default
         });
 
-        isThemeChanged = false;
+        themeChange = false;
       }
     }
       let btn = document.querySelector(".change-theme-btn");
