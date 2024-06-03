@@ -339,19 +339,27 @@ table td {
   .welcome-section-nav img {
     margin-left: 0;
 }
+  .image1{
+    position: absolute;
+  }
+  .nav{
+    margin-left: 22.5px; 
+    margin-top: 4px;
+  }
   .container{
     max-width: 98%;
     margin: 0 auto;
   }
   #welcome-section{
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 100px;
     display: flex;
     margin-left: 0;
     flex-direction: column;
   }
   .welcome-img{
-    width: 10%;
-    height: 10%;
+    width: 40%;
+    height: 40%;
     margin-left: 0;
     margin-top: 5rem;
   }
@@ -367,24 +375,6 @@ table td {
     display: flex;
     flex-direction: column;
     margin-top: 0;
-  }
-  .yellow-btn{
-    margin-top: 2rem;
-    padding: 10px 20px;
-    width: 8%;
-  }
-  .purple-btn{
-    padding: 10px 20px;
-    width: 8%;
-    margin-left: 3.8rem;
-    margin-top: 2rem;
-  }
-  .change-theme-btn{
-    padding: 10px 20px;
-    width: 8%;
-    margin-top: 2rem;
-    display: block;
-
   }
   #About-me{
     width: 100%;
@@ -415,14 +405,15 @@ about-me-right p{
   font-size: 15px;
 }
 #resume{
-  margin-left: 0;
-  width: 50%;
+  width: 100%;
+  margin-bottom: 25px;
 }
-#services h2, h3{
-  margin-top: 15px;
+#services{
+  margin-top: 0px;
 }
 .my-services{
   flex-direction: column;
+  margin-left: 0;
 }
 #services p{
   font-size: 10px;
@@ -439,6 +430,7 @@ about-me-right p{
   flex-direction: row;
   width: 100%;
   margin: 10px 10px;
+  margin-left: 0;
 }
 .project-tile a {
   display: block; 
@@ -455,6 +447,30 @@ about-me-right p{
 margin-left: 3rem;
 margin-top: 2rem;
 margin-bottom: 2rem;
+}
+.yellow-btn{
+  margin-top: 2rem;
+  padding: 10px 20px;
+  width: 78.6%;
+  margin-bottom: 10px;
+}
+.purple-btn{
+  padding: 10px 20px;
+  width: 78.6%;
+  margin-left: 3.8rem;
+  margin-top: 2rem;
+}
+.change-theme-btn{
+  padding: 9px 20px;
+  width: 78.6%;
+  margin-top: 2rem;
+
+}
+.underline{
+  width: 35%;
+  height: 1px;
+  background-color: #F6C268;
+  margin: 0 auto;
 }
 }
 
@@ -513,25 +529,7 @@ margin-bottom: 2rem;
     flex-direction: column;
     margin-top: 0;
   }
-  .yellow-btn{
-    margin-top: 2rem;
-    padding: 10px 20px;
-    width: 78.6%;
-    margin-bottom: 10px;
-  }
-  .purple-btn{
-    padding: 10px 20px;
-    width: 78.6%;
-    margin-left: 3.8rem;
-    margin-top: 2rem;
-  }
-  .change-theme-btn{
-    padding: 10px 20px;
-    width: 78.6%;
-    margin-top: 2rem;
-    display: block;
-
-  }
+  
   #services p{
   font-size: 10px;
 }
@@ -569,9 +567,7 @@ about-me-right p{
 #services h2, h3{
   margin-top: 15px;
 }
-.my-services{
-  flex-direction: column;
-}
+
 .my-service-column{
   width: 60%;
   margin: 5px auto;
